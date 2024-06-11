@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 카메라 미리보기 -->
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/image_view_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+    <!-- 사진 촬영 버튼 -->
+    <Button
+        android:id="@+id/button_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사진 촬영"/>
+
+</LinearLayout>
