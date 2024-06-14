@@ -1,6 +1,6 @@
 # capstone
 
-얼굴인식 도어락 제작 프로젝트
+라즈베리파이를 사용한 얼굴인식 도어락 제작 프로젝트
 
 사용툴 VSCODE, Android Studio, AWS, MSSQL-SERVER
 사용언어 Python, Kotlin, SQL
